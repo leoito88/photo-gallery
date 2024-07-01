@@ -1,9 +1,109 @@
 body{
     background-color: #000;
     margin: 0;
+    box-sizing: border-box;
 }
 
-img{
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    border-bottom: 1px solid #686868;
+
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #686868;
+    height: 50px;
+    padding: 20px;
+    width: 100px;
+}
+
+h3{
+    color: #fff;
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.center{
+    width: 90%;
+    position: relative;
+}
+
+input{
+    padding-left: 10px;
+}
+
+.form-control{
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    padding-left: 70px;
+}
+
+.form-control:focus{
+    background-color: #000;
+    color: #fff;
+    box-shadow: none;
+}
+
+.form-control::placeholder{
+    color: #686868;
+}
+
+i{
+    position: absolute;
+    left: 30px;
+    top: 4px;
+    color: #686868;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #686868;
+    height: 50px;
+    min-width: 100px;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border-bottom: 1px solid #686868;
+    padding-top: 40px;
+}
+
+h4{
+    font-size: 1em;
+    color: #686868;
+    padding-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.selected{
+    border-bottom: 3px solid #fff;
+}
+
+.selected h4{
+    color: #fff;
+}
+
+h4:hover{
+    color: #c9c9c9;
+}
+
+.gallery img{
     max-width: 100%;
     margin-bottom: 2em;
 }
@@ -11,5 +111,5 @@ img{
 .gallery {
     columns: 4 300px;
     column-gap: 2em;
-    margin: 2em;
+    margin: 2em 4em;
 }
