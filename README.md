@@ -12,7 +12,8 @@ https://leoito88.github.io/photo-gallery/
 
 ## Diseño a replicar
 
-![image_processing20221221-31068-1ku89ag](https://github.com/leoito88/photo-gallery/assets/59623841/d614c841-30ef-4706-8812-be7ac5b0e311
+![image](https://github.com/leoito88/photo-gallery/assets/59623841/e3db3a33-802c-41c1-a197-85c531bef859)
+
 
 ## Link del Diseño a replicar
 
